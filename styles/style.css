@@ -1,0 +1,56 @@
+/* fira sans start */
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /*fira sans ends  */
+
+
+/* Common design */
+.mp{
+    margin: 80px 160px;
+    padding:80px,100px;
+}
+
+/* Banner Section Start */
+.banner{
+    display: flex;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+
+}
+.banner-section{
+    margin: 117px 60px;
+}
+.banner-img{
+    margin: 80px 60px;
+}
+.banner-title{
+    font-size: 24px;
+    color:rgba(14, 14, 14, 0.5);
+
+}
+.banner-description{
+    font-size: 56px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+}
+.banner-button{
+    background-color: rgba(0, 106, 80, 1);
+    font-weight: 400px;
+    font-size: 18px;
+    color: white;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border-style: none;
+
+}
+h4{
+    margin-bottom: 16px;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+/* Banner Section End */
