@@ -94,3 +94,45 @@ p{
     position: absolute;
 }
 /* Vision Section End */
+
+/* Recent News Section Start */
+.card-1{
+    margin-bottom: 24px;
+    border-style: none;
+    padding: 48px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+}
+.read-more-btn{
+    background-color: rgba(0, 106, 80, 1);
+    font-weight: 400px;
+    font-size: 18px;
+    color: white;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border-style: none;
+
+}
+.news-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+span{
+    margin-left: 12px;
+}
+.card-img{
+    width: 30%;
+    float: left;
+    border-radius: 24px;
+    border-style: none;
+    margin-right: 32px;
+}
+.card-img-2{
+    width: 30%;
+    float: right;
+    border-radius: 24px;
+    border-style: none;
+    margin-right: 32px;
+}
+/* Recent News Section End */
