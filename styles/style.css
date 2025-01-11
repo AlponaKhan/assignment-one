@@ -136,3 +136,34 @@ span{
     margin-right: 32px;
 }
 /* Recent News Section End */
+
+/* Donate Action Section Start */
+.action{
+    text-align: center;
+}
+.donate-btn{
+    padding: 40px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    font-weight: bold;
+    border-style: none;
+    margin-left: 24px;
+}
+.fixed-color{
+    background-color: rgba(198, 228, 214, 1);
+}
+.input-field{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px 40px;
+    margin: 32px 124px;
+    height: 64px;
+    width: 1032px;
+    border-style: none;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+}
+::placeholder{
+    text-align: center;
+}
+/* Donate Action Section End */
