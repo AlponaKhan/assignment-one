@@ -8,10 +8,30 @@
 
 
 /* Common design */
+body{
+    background-color: rgba(241, 241, 243, 1);
+}
 .mp{
     margin: 80px 160px;
     padding:80px,100px;
 }
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+}
+h4{
+    margin-bottom: 16px;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.prgh{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
 
 /* Banner Section Start */
 .banner{
@@ -44,13 +64,33 @@
     padding: 17px 34px;
     border-radius: 8px;
     border-style: none;
-
-}
-h4{
-    margin-bottom: 16px;
-}
-p{
-    margin-top: 0px;
-    margin-bottom: 24px;
 }
 /* Banner Section End */
+
+/* Vision Section Start */
+.vision-container{
+    display: flex;
+    gap: 24px;
+}
+.vision-btn{
+    padding: 11px 20px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600px;
+    border-style: none;
+}
+.vision-card{
+    padding: 32px;
+    border-radius: 16px;
+}
+.quot{
+    margin-top: 32px;
+    padding:48px 24px;
+    border-radius: 16px;
+    background-color:#FFFFFF;
+}
+.img-quot{
+    position: absolute;
+}
+/* Vision Section End */
