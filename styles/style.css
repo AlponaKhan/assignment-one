@@ -65,6 +65,11 @@ p{
     border-radius: 8px;
     border-style: none;
 }
+.banner-button:hover{
+    background-color: rgb(237, 15, 222);
+    transition: all .5s linear;
+}
+
 /* Banner Section End */
 
 /* Vision Section Start */
@@ -79,6 +84,27 @@ p{
     font-size: 16px;
     font-weight: 600px;
     border-style: none;
+}
+.b1{
+    background-color: rgba(84, 144, 245, 1);
+}
+.b1:hover{
+    background-color: rgb(237, 15, 222);
+    transition: all .8s linear;
+}
+.b2{
+    background-color: rgba(9, 161, 92, 1);
+}
+.b2:hover{
+    background-color: rgb(237, 15, 222);
+    transition: all .8s linear;
+}
+.b3{
+    background-color: rgba(255, 194, 57, 1);
+}
+.b3:hover{
+    background-color: rgb(237, 15, 222);
+    transition: all .8s linear;
 }
 .vision-card{
     padding: 32px;
@@ -118,6 +144,10 @@ p{
     border-style: none;
 
 }
+.read-more-btn:hover{
+    background-color: rgb(237, 15, 222);
+    transition: all .8s linear;
+}
 .news-title{
     font-size: 32px;
     font-weight: bold;
@@ -154,6 +184,10 @@ span{
     font-weight: bold;
     border-style: none;
     margin-left: 24px;
+}
+.donate-btn:hover{
+    background-color: rgb(237, 15, 222);
+    transition: all .8s linear;
 }
 .fixed-color{
     background-color: rgba(198, 228, 214, 1);
@@ -192,6 +226,10 @@ span{
     border-style: none;
     color: rgba(255, 255, 255, 1);
 
+}
+.sub-btn:hover{
+    background-color: rgb(237, 15, 222);
+    transition: all .8s linear;
 }
 .email-form{
     padding:18px 40px;
