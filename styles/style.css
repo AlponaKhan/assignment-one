@@ -84,7 +84,11 @@ p{
     padding: 32px;
     border-radius: 16px;
 }
+/* Quote Part Start */
 .quot{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 24px 18px;
     margin-top: 32px;
     padding:48px 24px;
     border-radius: 16px;
@@ -93,6 +97,7 @@ p{
 .img-quot{
     position: absolute;
 }
+/* Quote Part End */
 /* Vision Section End */
 
 /* Recent News Section Start */
@@ -162,8 +167,38 @@ span{
     border-style: none;
     font-size: 20px;
     color: rgba(14, 14, 14, 0.3);
-}
-::placeholder{
     text-align: center;
 }
 /* Donate Action Section End */
+
+/* Newsletter Section Start */
+.newsletter{
+    text-align: center;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 80px 100px;
+    border-radius: 24px;
+}
+.sub-form{
+    display:flex;
+    overflow: hidden;
+    margin: 24px 256px;
+}
+.sub-btn{
+    padding: 17px 34px;
+    border-radius: 0px 5px 5px 0px;
+    background-color:rgba(0, 106, 80, 1);
+    font-size: 18px;
+    font-weight: 400px;
+    border-style: none;
+    color: rgba(255, 255, 255, 1);
+
+}
+.email-form{
+    padding:18px 40px;
+    color: rgba(255, 255, 255, 1) ;
+    border-radius: 5px 0px 0px 5px;
+    border-style: none;
+    width: 600px;
+    height: 20px;
+}
+/* Newsletter Section End */
